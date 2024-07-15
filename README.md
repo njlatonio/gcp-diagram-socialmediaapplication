@@ -28,3 +28,10 @@ Flow:
 ************
 
 Diagram:
+![GCP - Scenario 3](https://github.com/user-attachments/assets/d2de7e4a-8205-42a7-9d3f-45abb713a7dc)
+
+Explanation: 3 regions used to ensure 99.999% availability and to be fault tolerant
+- Cloud load balancer used to spread load across availability zones
+- Web tier and application tier for frontend and backend
+- Compute engine used for web and app servers
+- Cloud memorystore used for database - Memorystore is a fully-managed database service that provides a managed version of two popular open source caching solutions: Redis and Memcached
