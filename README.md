@@ -3,6 +3,7 @@
 **********
 Task:
 Scenario 3: Social Media Application
+
 Architecture:
 1. Presentation Tier (Frontend):
   - Components:Web browser, Mobile app.
